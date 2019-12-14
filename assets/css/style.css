@@ -1,0 +1,22 @@
+body {
+	background-image: url("/assets/images/5-dots.png");
+}
+
+.container {
+	margin: 40px auto;
+	width: 900px;
+	border: 1px solid #dfdfdf;
+	background-color: #d4d6d4;
+	padding: 40px 30px 15px 30px;
+	border-radius: 10px 10px;
+}
+
+/* #row1 {
+	margin-top: 20px;
+}
+
+#mainheader {
+	text-align: center;
+	padding: 20px;
+	margin: 0 auto;
+} */
