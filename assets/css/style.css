@@ -13,10 +13,16 @@ body {
 
 /* #row1 {
 	margin-top: 20px;
-}
+} */
 
 #mainheader {
 	text-align: center;
-	padding: 20px;
+	padding: 10px;
 	margin: 0 auto;
-} */
+}
+
+#Generatorresults {
+	border: 1px solid #7c7d7c;
+	background-color: #dfdfdf;
+	height: 100px;
+}
