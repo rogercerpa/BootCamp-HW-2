@@ -38,6 +38,16 @@ body {
 
 /* media queries */
 
+@media all and (max-width: 770px) {
+	.col-md-6 {
+		max-width: 50%;
+	}
+
+	.btn {
+		font-size: 25px;
+	}
+}
+
 @media all and (max-width: 600px) {
 	.container {
 		width: 400px;
@@ -45,7 +55,12 @@ body {
 	#mainheader {
 		font-size: 30px;
 	}
-}
 
-@media all and (max-width: 770px) {
+	.col-md-6 {
+		max-width: 50%;
+	}
+
+	.btn {
+		font-size: 15px;
+	}
 }
