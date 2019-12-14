@@ -12,9 +12,7 @@ body {
 	border-radius: 10px 10px;
 }
 
-/* #row1 {
-	margin-top: 20px;
-} */
+/* main content styling */
 
 #mainheader {
 	text-align: center;
@@ -36,4 +34,18 @@ body {
 .btn-primary {
 	background-image: url("/assets/images/5-dots.png");
 	border-color: black;
+}
+
+/* media queries */
+
+@media all and (max-width: 600px) {
+	.container {
+		width: 400px;
+	}
+	#mainheader {
+		font-size: 30px;
+	}
+}
+
+@media all and (max-width: 770px) {
 }
