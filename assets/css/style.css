@@ -35,4 +35,5 @@ body {
 
 .btn-primary {
 	background-image: url("/assets/images/5-dots.png");
+	border-color: black;
 }
