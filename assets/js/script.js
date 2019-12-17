@@ -67,6 +67,17 @@ var numbers = [ '1', '2', '3', '4', '5', '6', '7', '8', '9', '0' ];
 
 function generatefunction() {}
 
+function randomLowercase() {}
+function randomUppercase() {}
+function randomNumber() {}
+function randomSymbol() {}
+
 //button copy to clipboard
 
-function copytoclipboard() {}
+const copytoclipboard = document.getElementById('copytoclipboard');
+const Generatorresults = document.getElementById('Generatorresults');
+
+copytoclipboard.onclick = function() {
+	Generatorresults.select();
+	document.execCommand('Copy');
+};
