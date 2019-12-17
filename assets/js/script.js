@@ -28,7 +28,7 @@ if (passwordgenerator) {
 	alert('bye bye! have a nice day');
 }
 
-var uppercase = [
+var randomUppercase = [
 	'A',
 	'B',
 	'C',
@@ -59,18 +59,28 @@ var uppercase = [
 
 // var lowercase = uppercase.toLowerCase();
 
-// console.log(lowercase);
-
 var numbers = [ '1', '2', '3', '4', '5', '6', '7', '8', '9', '0' ];
 
 //button generate password
 
 function generatefunction() {}
 
-function randomLowercase() {}
-function randomUppercase() {}
-function randomNumber() {}
-function randomSymbol() {}
+function randomLowercase() {
+	return String.fromLowercase(Math.floor(Math.random()));
+}
+// console.log(randomLowercase);
+
+function randomUppercase() {
+	return String.fromrandomUppercase(Math.floor(Math.random() * 26));
+}
+console.log(randomUppercase);
+
+function randomNumber() {
+	return String.fromNumber(Math.floor(Math.random()));
+}
+function randomSymbol() {
+	return String.fromSymbol(Math.floor(Math.random()));
+}
 
 //button copy to clipboard
 
