@@ -1,5 +1,5 @@
 body {
-	background-image: url("/assets/images/5-dots.png");
+	background-image: url("../assets/images/5-dots.png");
 	font-family: 'Arvo', serif;
 }
 
@@ -33,7 +33,7 @@ body {
 }
 
 .btn-primary {
-	background-image: url("/assets/images/5-dots.png");
+	background-image: url("../assets/images/5-dots.png");
 	border-color: black;
 }
 
