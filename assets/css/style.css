@@ -1,5 +1,5 @@
 body {
-	background-image: url("../assets/images/connectwork/connectwork.png");
+	background-image: url("../images/5-dots.png");
 	font-family: 'Arvo', serif;
 }
 
@@ -33,7 +33,7 @@ body {
 }
 
 .btn-primary {
-	background-image: url("../assets/images/connectwork/connectwork.png");
+	background-image: url("../images/5-dots.png");
 	border-color: black;
 }
 
