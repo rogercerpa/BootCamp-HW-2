@@ -1,4 +1,5 @@
 alert('Hello! welcome to this Super cool password generator');
+alert('Click on the Password Generator button to start, Enjoy! :)');
 
 function generatefunction() {
 	var passwordgenerator = confirm(
