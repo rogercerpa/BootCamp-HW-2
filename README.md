@@ -7,8 +7,8 @@ Easy to use app to help you build a strong password.
 
  This app will save you time, Follow the steps below to learn how to use the app.
 
- 1. Enter the lenght of the password you would like to be generated. It can be from 1 to 30 characters.
- 2. Use the buttons ok for YES and/or Click cancel for NO to answer the following questions:
+ 1. Enter the lenght (1-30) of the password you would like to be generated. It can be from 1 to 30 characters.
+ 2. Use the buttons 'ok' for YES and/or 'cancel' for NO, to answer the following questions:
         -Would you like uppercase letters?
         -Would you like lowercase letters?
         -Would you like numbers?
