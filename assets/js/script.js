@@ -84,8 +84,8 @@ function randomSymbol() {
 
 //button copy to clipboard
 
-const copytoclipboard = document.getElementById('copytoclipboard');
-const Generatorresults = document.getElementById('Generatorresults');
+var copytoclipboard = document.getElementById('copytoclipboard');
+var Generatorresults = document.getElementById('Generatorresults');
 
 copytoclipboard.onclick = function() {
 	Generatorresults.select();
